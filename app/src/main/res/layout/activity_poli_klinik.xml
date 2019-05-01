@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/pRuangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Pilih Ruangan"
+                android:textSize="45dp" />
+
+            <Button
+                android:id="@+id/rUmum"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/pRuangan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang Pemeriksaan Umum"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rPemeriksaanGigi"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rUmum"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang Pemeriksaan Gigi"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rKiaKb"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rPemeriksaanGigi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang KIA/KB"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/rImuni"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rKiaKb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang Imunisasi"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rMtbs"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rImuni"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang mtbs"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rLansia"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rMtbs"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang lansia"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rTb"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rLansia"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang tb"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rKespro"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rTb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang kespro"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rKongizi"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rKespro"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang konsultasi gizi"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rSanitasi"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rKongizi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang sanitasi"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/rKonpsi"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rSinitasi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_background"
+                android:text="Ruang konsultasi psikologi"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
